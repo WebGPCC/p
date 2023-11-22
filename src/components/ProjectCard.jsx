@@ -21,14 +21,16 @@ const ProjectCard = ({
     >
         <a href="#">
             <div className={`absolute rounded-xl p-5 xl:p-10 bg-white bottom-5 right-5 flex xl:flex-col items-center xl:items-start  justify-between group has-motion w-[87.5%] lg:w-${widthInfo}`}>
-                <div className='justify-between items-center hidden xl:flex'>
-                    <div className="flex items-center space-x-4 justify-ev">
-                        <span className="px-3 py-1 rounded items-center" style={{background: "rgb(68, 138, 112)", color: "rgb(255, 255, 255)"}}>
-                            UI &amp; UX
-                        </span>
-                        <span className="px-3 py-1 rounded items-center" style={{background: "rgb(80, 36, 61)", color: "rgb(255, 255, 255)"}}>
-                            Development
-                        </span>
+                <div className='justify-between items-center hidden xl:flex w-full'>
+                    <div className="flex items-center justify-between w-full">
+                        <div className='flex flex-wrap gap-2 pr-2'>
+                            <span className="px-3 py-1 rounded items-center" style={{background: "rgb(68, 138, 112)", color: "rgb(255, 255, 255)"}}>
+                                UI &amp; UX
+                            </span>
+                            <span className="px-3 py-1 rounded items-center" style={{background: "rgb(80, 36, 61)", color: "rgb(255, 255, 255)"}}>
+                                Development
+                            </span>
+                        </div>
                         <p>2023</p>
                     </div>
                 </div>
