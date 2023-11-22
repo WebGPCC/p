@@ -27,9 +27,9 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li>
-                    <a className="text-lg 2xl:text-xl lg:hidden xl:flex transition-all duration-300 hover:text-[#3EC091]" href="#">
-                        Contact
-                    </a>
+                    <button className="py-2 px-4 rounded bg-[#3EC091] text-lg font-semibold 2xl:text-xl lg:hidden xl:flex transition-all duration-300 hover:bg-white hover:text-[#3EC091]"  href="#">
+                        Start our journey
+                    </button>
                 </li>
             </ul>
         </div>
