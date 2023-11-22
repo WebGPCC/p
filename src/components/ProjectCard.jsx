@@ -40,8 +40,8 @@ const ProjectCard = ({
                 </span>
                 <button className="text-lg transition-all duration-300 bg-[#3EC091] text-white flex-shrink py-2 px-4 lg:py-3 lg:px-6 rounded font-bold flex items-center space-x-2  hover:opacity-80 group lg:mt-5">
                     <span>See all</span> 
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 group-hover:-rotate-45 transition-all duration-300" data-v-055a3525="">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" data-v-055a3525=""></path>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 group-hover:-rotate-45 transition-all duration-300" >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" ></path>
                     </svg>
                 </button>
             </div>
