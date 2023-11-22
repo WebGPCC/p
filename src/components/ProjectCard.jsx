@@ -32,7 +32,7 @@ const ProjectCard = ({
                                 Development
                             </span>
                         </div>
-                        <p className='font-semibold'>{year}</p>
+                        <p className='font-semibold'>{String(year)}</p>
                     </div>
                 </div>
                 <span className="text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl font-bold mt-0 xl:mt-10 lg:flex">
@@ -52,7 +52,7 @@ const ProjectCard = ({
 
 ProjectCard.propTypes  = {
     title: PropTypes.string.isRequired,
-    year: PropTypes.string.isRequired,
+    year: PropTypes.number.isRequired,
     url: PropTypes.string.isRequired,
     columns: PropTypes.number.isRequired,
     widthInfo : PropTypes.string.isRequired,
