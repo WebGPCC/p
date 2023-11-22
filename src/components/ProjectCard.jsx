@@ -5,6 +5,7 @@ const ProjectCard = ({
     url,
     columns,
     widthInfo,
+    year,
 }) => {
   return (
     <div 
@@ -31,10 +32,10 @@ const ProjectCard = ({
                                 Development
                             </span>
                         </div>
-                        <p>2023</p>
+                        <p className='font-semibold'>{year}</p>
                     </div>
                 </div>
-                <span className="text-2xl xl:text-3xl 2xl:text-4xl font-bold mt-0 xl:mt-10 lg:flex">
+                <span className="text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl font-bold mt-0 xl:mt-10 lg:flex">
                     {title}
                 </span>
                 <button className="text-lg transition-all duration-300 bg-[#3EC091] text-white flex-shrink py-2 px-4 lg:py-3 lg:px-6 rounded font-bold flex items-center space-x-2  hover:opacity-80 group lg:mt-5">
@@ -51,6 +52,7 @@ const ProjectCard = ({
 
 ProjectCard.propTypes  = {
     title: PropTypes.string.isRequired,
+    year: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
     columns: PropTypes.number.isRequired,
     widthInfo : PropTypes.string.isRequired,
