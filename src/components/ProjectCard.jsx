@@ -25,10 +25,10 @@ const ProjectCard = ({
                 <div className='justify-between items-center hidden xl:flex w-full'>
                     <div className="flex items-center justify-between w-full">
                         <div className='flex flex-wrap gap-2 pr-2'>
-                            <span className="px-3 py-1 rounded items-center" style={{background: "rgb(68, 138, 112)", color: "rgb(255, 255, 255)"}}>
+                            <span className="px-3 py-1 rounded items-center bg-orange-600 text-white">
                                 UI &amp; UX
                             </span>
-                            <span className="px-3 py-1 rounded items-center" style={{background: "rgb(80, 36, 61)", color: "rgb(255, 255, 255)"}}>
+                            <span className="px-3 py-1 rounded items-center bg-purple-900 text-white">
                                 Development
                             </span>
                         </div>

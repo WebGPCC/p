@@ -4,13 +4,13 @@ const About = () => {
         <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 space-y-5 lg:space-y-0 lg:space-x-5 xl:space-x-0 xl:px-5 items-center" >
                 <div className="flex flex-col space-y-5 lg:space-y-7 items-start" >
-                    <div className="px-5 py-3 rounded-lg items-center text-[#3EC091] border border-[#3EC091] fade-in-fast"  style={{translate: "none", rotate: "none", scale: "none", opacity: 1,transform: "translate(0px, 0px)"}}>
+                    <div className="px-5 py-3 rounded-lg items-center text-[#3EC091] border border-[#3EC091] fade-in-fast">
                         Fundamentals of Creativity 
                     </div>
-                    <div className="text-3xl xl:text-5xl 2xl:text-6xl font-bold xl:max-w-lg 2xl:max-w-2xl fade-in-fast"  style={{translate: "none", rotate: "none", scale: "none", opacity: 1,transform: "translate(0px, 0px)"}}> 
+                    <div className="text-3xl xl:text-5xl 2xl:text-6xl font-bold xl:max-w-lg 2xl:max-w-2xl fade-in-fast"> 
                         Crafting Innovation: Our Creative Journey
                     </div>
-                    <p className="xl:max-w-xl 2xl:max-w-2xl 2xl:text-xl fade-in-fast"  style={{translate: "none", rotate: "none", scale: "none", opacity: 1,transform: "translate(0px, 0px)"}}> 
+                    <p className="xl:max-w-xl 2xl:max-w-2xl 2xl:text-xl fade-in-fast"> 
                         Welcome to our design and development studio, where creativity and technology come together to build exceptional digital experiences. Our studio is home to a team of talented designers, developers, and strategists who are passionate about creating innovative solutions that help businesses and organizations succeed online. 
                     </p>
                     <a href="#about" className="text-lg transition-all duration-300 bg-[#3EC091] text-white flex-shrink py-3 px-6 rounded font-bold flex items-center space-x-2 mr-auto mt-4 hover:opacity-80" >
