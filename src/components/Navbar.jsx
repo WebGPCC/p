@@ -21,11 +21,11 @@ const Navbar = () => {
     return (
         <>
             <div className="w-full fixed left-0 top-8 z-[999]">
-                <div className={"flex items-center gap-5 px-[21px] pt-[21px] rounded py-5 text-center w-fit my-0 mx-auto  transition-all duration-300 "} style={{background:"black", transform : `translate(0px,${isAtTop?"-150px":"0px"})`}}>
-                <a href="/" className="">
+                <div className={"flex items-center gap-5 px-[21px] rounded-full py-4 text-center w-fit my-0 mx-auto  transition-all duration-1000 "} style={{background:"black", transform : `translate(0px,${isAtTop?"-150px":"0px"})`}}>
+                    <a href="/" className="">
                         <img src="https://www.fundamental.bg/logo-white.svg" alt="fundamental-logo" />
                     </a>
-                    <button className="py-2 px-4 rounded bg-[#3EC091] text-lg font-semibold 2xl:text-xl lg:hidden xl:flex transition-all duration-300 hover:bg-white hover:text-[#3EC091]"  href="#">
+                    <button className="py-2 px-4 rounded bg-[#3EC091] text-lg font-semibold 2xl:text-xl hidden lg:block xl:flex transition-all duration-300 hover:bg-white hover:text-[#3EC091]"  href="#">
                         Start our journey
                     </button>
                     <a className="cursor-pointer">
