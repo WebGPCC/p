@@ -59,6 +59,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        <div className="container mx-auto border-t border-gray-800 py-5 px-5 mt-10"><div className="flex flex-col lg:flex-row lg:items-center lg:justify-between text-white space-y-5 lg:space-y-0 fade-in-fa"><div className="flex-1 flex flex-col lg:flex-row lg:items-center lg:space-x-5 space-y-2.5 lg:space-y-0"><a href="/cookie-policy" className="hover:text-[#3EC091] transition-all duration-300"> Cookie Policy </a><a href="/terms-of-use" className="hover:text-[#3EC091] transition-all duration-300"> Terms of use </a><a href="/privacy-policy" className="hover:text-[#3EC091] transition-all duration-300"> Privacy Policy</a></div><p className="flex-1 prose lg:text-right text-white"> © 2016 - 2023 All rights reserved. Fundamental Studio Ltd. </p></div></div>
     </footer>
   )
 }
