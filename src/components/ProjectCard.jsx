@@ -9,7 +9,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div 
-        className={`bg-bottom rounded-xl relative w-full p-5 xl:p-10 flex flex-col min-h-[600px] lg:min-h-[700px] transition-all duration-300 fade-in-fast col-span-3 lg:col-span-${columns.toString()}`}
+        className={`bg-bottom rounded-xl relative w-full p-5 xl:p-10 flex flex-col min-h-[600px] lg:min-h-[700px] transition-all duration-300 fade-in-fast col-span-3 ${columns === 1 ? "lg:col-span-1" : columns === 2 ? "lg:col-span-2" : "lg:col-span-3"}` }
         style={{
             backgroundImage: `url(${url})`,
             backgroundSize: "cover", 
@@ -32,7 +32,7 @@ const ProjectCard = ({
                                 Development
                             </span>
                         </div>
-                        <p className='font-semibold'>{year.toString()}</p>
+                        <p className='font-semibold'>{year}</p>
                     </div>
                 </div>
                 <span className="text-xl lg:text-3xl xl:text-3xl 2xl:text-4xl font-bold mt-0 xl:mt-10 lg:flex">
@@ -52,9 +52,9 @@ const ProjectCard = ({
 
 ProjectCard.propTypes  = {
     title: PropTypes.string.isRequired,
-    year: PropTypes.number.isRequired,
+    year: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-    columns: PropTypes.number.isRequired,
+    columns: PropTypes.string.isRequired,
     widthInfo : PropTypes.string.isRequired,
 }
 
