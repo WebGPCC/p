@@ -24,7 +24,7 @@ const Projects = () => {
                         year={project.year}
                         url={project.url} 
                         columns={project.columns}
-                        widthInfo={project.columns === 1 ? "[92.5]" : "1/2"}
+                        widthInfo={project.columns === 1 ? "lg:w-[92.5%]" : "lg:w-1/2"}
                     />
                 )}
             </div>

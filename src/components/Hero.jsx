@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <header id="hero" className="bg-cover h-screen flex flex-col items-center justify-center header">
+    <header className="bckg-fundamental bg-cover h-screen flex flex-col items-center justify-center header">
         <h1 className="
             leading-tight 
             text-5xl 

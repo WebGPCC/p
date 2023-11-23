@@ -9,7 +9,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div 
-        className={`bg-bottom rounded-xl relative w-full p-5 xl:p-10 flex flex-col min-h-[600px] lg:min-h-[700px] transition-all duration-300 fade-in-fast col-span-3 ${columns === 1 ? "lg:col-span-1" : columns === 2 ? "lg:col-span-2" : "lg:col-span-3"}` }
+        className={`bg-bottom rounded-xl relative w-full p-5 xl:p-10 flex flex-col min-h-[600px] lg:min-h-[700px] transition-all duration-300 fade-in-fast col-span-3 ${columns === 1 ? "lg:col-span-1" : columns === 2 ? "lg:col-span-2" : "lg:col-span-3"}`}
         style={{
             backgroundImage: `url(${url})`,
             backgroundSize: "cover", 
@@ -21,7 +21,7 @@ const ProjectCard = ({
         }}
     >
         <a href="#">
-            <div className={`absolute rounded-xl p-5 xl:p-10 bg-white bottom-5 right-5 flex xl:flex-col items-center xl:items-start  justify-between group has-motion w-[87.5%] lg:w-${widthInfo}`}>
+            <div className={`absolute rounded-xl p-5 xl:p-10 bg-white bottom-5 right-5 flex xl:flex-col items-center xl:items-start  justify-between group has-motion w-[87.5%] ${widthInfo}`}>
                 <div className='justify-between items-center hidden xl:flex w-full'>
                     <div className="flex items-center justify-between w-full">
                         <div className='flex flex-wrap gap-2 pr-2'>
@@ -54,7 +54,7 @@ ProjectCard.propTypes  = {
     title: PropTypes.string.isRequired,
     year: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-    columns: PropTypes.string.isRequired,
+    columns: PropTypes.number.isRequired,
     widthInfo : PropTypes.string.isRequired,
 }
 

@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#hero{
+.bckg-fundamental{
   background-image: url("https://www.fundamental.bg/img/artboard.avif");
 }
