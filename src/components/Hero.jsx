@@ -16,11 +16,11 @@ const Hero = () => {
             hover:blur-sm 
             transition-all duration-300"
         >
-            Blurring the line between art and technology
+          Unveiling Digital Stories from Blur
         </h1>
         <p className="text-[#ffffffd9] text-xl mt-5 px-5 flex flex-col text-center">
-            <span>Fundamental Studio is a modern digital company, offering different kind of services at your disposal.</span> 
-            <span>We are your trustworthy partner.</span>
+            <span>JavaScript developer and UX/UI enthusiast, blurring the lines between code and design.</span> 
+            <span>Eager to contribute to innovative projects that push boundaries.</span>
         </p>
     </header>
   )

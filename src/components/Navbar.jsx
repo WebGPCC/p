@@ -20,8 +20,8 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="w-full fixed left-0 top-5 z-[999]">
-                <div className={"flex items-center  gap-5 px-[21px] rounded-full py-4 text-center w-fit my-0 mx-auto  transition-all duration-1000 "} style={{background:"black", transform : `translate(0px,${isAtTop?"-150px":"0px"})`}}>
+            <nav className="w-full fixed left-0 z-[888] top-5">
+                <div className={"flex items-center gap-5 px-[21px] rounded-full py-4 text-center w-fit my-0 mx-auto  transition-all duration-1000 "} style={{background:"black", transform : `translate(0px,${isAtTop?"-150px":"0px"})`}}>
                     <a href="/" className="">
                         <img src="https://www.fundamental.bg/logo-white.svg" alt="fundamental-logo" />
                     </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </div>
             </nav>
 
-            <nav className="absolute left-0 py-6 w-full transition-all duration-300 z-30 lg:px-10 top-5">
+            <nav className="absolute left-0 py-6 w-full transition-all duration-300 z-[900] lg:px-10 top-5">
                 <div className="container mx-auto items-center justify-between flex px-5">
                     <a href="/" className="">
                         <img src="https://www.fundamental.bg/logo-white.svg" alt="fundamental-logo" />
