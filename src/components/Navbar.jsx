@@ -28,9 +28,9 @@ const Navbar = () => {
 
     return (
         <>
+            <Menu isOpen={isOpen} setState={setIsOpen} />
             <nav className="w-full fixed left-0 z-[888] top-5">
-                <Menu isOpen={isOpen} setState={setIsOpen} />
-                <div className={"flex items-center gap-5 px-[21px] rounded-full py-4 text-center w-fit my-0 mx-auto transition-all duration-1000 "} style={{background:"black", transform : `translate(0px,${isAtTop?"-150px":"0px"})`}}>
+                <div className={"flex items-center gap-5 px-[21px] rounded-full py-4 text-center w-fit my-0 mx-auto transition-all duration-1000"} style={{background:"black", transform : `translate(0px,${isAtTop?"-150px":"0px"})`}}>
                     <a href="/" className="">
                         <img src="https://www.fundamental.bg/logo-white.svg" alt="fundamental-logo" />
                     </a>
@@ -74,11 +74,11 @@ const Navbar = () => {
                         </li>
                     </ul>
 
-                    <a className="cursor-pointer xl:hidden">
+                    <button onClick={handleClickBuger} className="cursor-pointer xl:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8 hover:text-[#3EC091] transition-all duration-300 text-white">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
                         </svg>
-                    </a>
+                    </button>
                 </div>
             </nav>
         </>
